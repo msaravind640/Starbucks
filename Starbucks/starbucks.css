@@ -1,0 +1,484 @@
+body{
+    margin:0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height:75px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    
+}
+.logo{
+    display: flex;
+    width:100px;
+    padding-left: 133px;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    height: 40px;
+    width:40px;  
+    
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    width:500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font:13px;
+    align-items: center;
+    gap:60px;
+}
+.signin{
+    display:flex;
+    width:335px;
+    align-items: center;
+    padding-left: 250px;
+}
+.signin-box{
+    border-radius: 50px;
+    width:210px;
+    height:25px;
+    padding: 6px 12px;
+    color: rgba(33, 37,41, 1);
+    padding-left: 25px;
+    box-shadow: 0 0 2px #00000012,0 2px 2px #0000000f,0 1px 3px #0000001a;
+    border: none;
+}
+.login-icon{
+    height: 32px;
+    width: 32px;    
+    display:flex ;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 45px;
+}
+.section-2{
+    background-color: #1e3932;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding-top: 75px;
+}
+.sign-up-text{
+    color: #F9F9F9;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 126px;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+.know-more{
+    padding-right: 175px;
+
+}
+.know-more button{
+    width: 90px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.curation{
+    font-size: 24px;
+    font-family: SoDoSans_Bold,Helvetica,sans-serif;
+    padding-left: 126px;
+    padding-top: 40px;
+    width:100%;
+    height: 25px;
+}
+.section3-images{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding-left: 130px;
+    padding-top: 27px;
+    height: 250px;
+}
+.bestseller1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.bstext{
+    margin-left: 20px;
+}
+.drinks1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.dkstext{
+    margin-left: 26px;
+}
+.food1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.fdtext{
+    margin-left: 30px;
+}
+.merchandise1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.mertext{
+    margin-left: 10px;
+}
+.coffee-at-home1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.ready-to-eat1{
+    border-radius: 50%;
+    width:108px;
+    height:108px;
+    cursor: pointer;
+}
+.rte{
+    margin-left: 10px;
+}
+.section4{
+    height: 350px;
+    width: 100%;
+    background-color: #edebe9;
+}
+.barista{
+    font-size: 24px;
+    font-family:SoDoSans_Bold,Helvetica,sans-serif ;
+    padding-left: 105px;
+    padding-top: 40px;
+}
+.menu{
+    float:right;
+    color:#00754a;
+    cursor: pointer;
+    padding-right: 105px;
+    padding-top: 17px;
+    font-size: 14px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    padding-left: 105px;
+    padding-top: 25px;
+    width: 100%;
+    height: 300px;
+}
+.java{
+    background-color: white;
+    height:140px;
+    width:400px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;  
+    cursor: pointer; 
+}
+.chip{
+    width: 80px;
+    height: 80px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.rupee{
+    padding-left: 25px;
+}
+.veg{
+    width: 16px;
+    height: 16px;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.add-item{
+    width: 96px;
+    height: 32px;
+    border-radius: 25px;
+    background-color: #00754a;
+    color: white;
+    margin-top: 90px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.section5{
+    height: 360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pack{
+    background-color: #198754;
+    height: 220px;
+    width: 80%;  
+    display: flex;
+    flex-direction: row;
+}
+.section5-image{
+    width:13%;
+    padding-top: 23px;
+}
+.section5-image img{
+    height: 200px;
+    width: 100px;
+    cursor: pointer;
+}
+.section5-text{
+    width:60%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.section5-text-p1{
+    font-size: 14px;
+    padding-top: 14px;
+}
+.section5-text-p2{
+    font-size: 20px;
+}
+.section5-text-p3{
+    font-size: 14px;
+}
+.section5-text-p4{
+    font-size: 14px;
+    padding-top: 15px;
+}
+.order{
+    width:27%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 28px;
+    padding-left: 300px;
+   
+}
+
+.order-button{
+    height: 49px;
+    width: 200px;
+    justify-content: center;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 25px;
+    margin: 0;
+    cursor: pointer;
+}
+.section6{
+    width:100%;
+    height: 500px;
+    background-color: #edebe9;
+}
+.section6-heading{
+    height:70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.learn{
+    font-size: 24px;
+    padding-left: 150px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.discover{
+    font-size: 12.8px;
+    color:#00754a;
+    padding-top: 35px;
+    padding-left: 750px;
+}
+.section6-middle{
+    width:80%;
+    height:80%;
+    background-color: black;
+    border-radius: 12px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.section6-image{
+    height: 400px;
+    width:100%;
+}
+.section6-middle h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 210px;
+    position: absolute;
+    margin-left:45px; ;
+    font-size: 28px;
+}
+.section6-middle p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    position: absolute;
+    font-size: 14px;
+    margin-left: 45px ;
+    margin-top: 280px;
+}
+.section6-middle button{
+    height: 32px;
+    width: 200px;
+    border-radius: 25px;
+    margin-left: 45px;
+    margin-top:350px;
+    position: absolute;
+}
+.section7{
+    width:100%;
+    height:600px;
+    padding-left: 40px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.news{
+    font-size: 28px;
+    padding-left: 130px;
+    padding-top:36px;
+}
+.find{
+    font-size: 12.8px;
+    color:#00754a;
+    padding-top: 35px;
+    padding-left: 750px;
+}
+.section7-box{
+    height:407px;
+    width:366px;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgb(188, 186, 186);
+}
+.section7-box h3{
+    position: absolute;
+    padding-top: 200px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.section7-box p{
+    position: absolute;
+    padding-top: 230px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.section7-box button{
+    position: absolute;
+    height: 32px;
+    width:120px;
+    background-color: #00754a;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 313px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.store{
+    width:366px;
+    height:200px;
+}
+.footer{
+    width:100%;
+    height:400px;
+    background-color: #0e382c;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    width:15%;
+}
+.logo2{
+    width:62px;
+    height:62px;
+    margin-left: 115px;
+    margin-top: 115px;
+}
+.footer-list{
+    width:60%;
+}
+.social{
+    width:13%;
+    padding-top: 20px;
+    
+}
+.download{
+    width:12%;
+}
+.footer-list{
+    
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+
+}
+.footer-table{
+    border-spacing: 120px 30px;
+}
+.footer-table td{
+    font-size: 16px;
+    cursor: pointer;
+    column-width: 100px;
+}
+.footer-table th{
+    font-size: 18px;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    padding-top: 129px;
+}
+.instagram{
+    width: 33.33%;
+}
+.icon{
+    width:35px;
+    height:35px;
+    cursor: pointer;
+}
+.facebook{
+    width:33.33%
+}
+.twitter{
+    width:33.33%
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    padding-top: 122px;
+    cursor: pointer;
+}
+.end{
+    height: 150px;
+    width: 100%;
+    background-color: #0e382c;
+}
+.end hr{
+    width:80%;
+    margin: 0;
+    margin-left: 150px;
+} 
+.end-note{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap:25px;
+    font-size: 14px;
+    padding-left: 153px;
+    padding-top: 15px;
+}
